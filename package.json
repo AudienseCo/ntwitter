@@ -1,6 +1,6 @@
 { 
   "name": "ntwitter", 
-  "version": "0.2.9-2sb", 
+  "version": "0.2.91", 
   "description": "Asynchronous Twitter REST/stream/search client API for node.js.", 
   "keywords": ["twitter","streaming","oauth"], 
   "homepage": "https://github.com/AvianFlu/ntwitter", 
@@ -14,7 +14,7 @@
     "url": "http://github.com/AvianFlu/ntwitter.git"
   }, 
   "dependencies": { 
-    "oauth": ">=0.9.8", 
+    "oauth": "git://github.com/SocialBro/node-oauth.git", 
     "cookies": "0.1.x",
     "keygrip": "0.1.x"
   }, 
