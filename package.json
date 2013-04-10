@@ -1,23 +1,30 @@
-{ 
-  "name": "ntwitter", 
-  "version": "0.2.94", 
-  "description": "Asynchronous Twitter REST/stream/search client API for node.js.", 
-  "keywords": ["twitter","streaming","oauth"], 
-  "homepage": "https://github.com/AvianFlu/ntwitter", 
-  "author": "jdub, changes by AvianFlu", 
-  "licenses": { 
-    "type": "MIT", 
+{
+  "name": "ntwitter",
+  "version": "0.2.95",
+  "description": "Asynchronous Twitter REST/stream/search client API for node.js.",
+  "keywords": [
+    "twitter",
+    "streaming",
+    "oauth"
+  ],
+  "homepage": "https://github.com/AvianFlu/ntwitter",
+  "author": "jdub, changes by AvianFlu",
+  "licenses": {
+    "type": "MIT",
     "url": "http://github.com/AvianFlu/ntwitter/raw/master/LICENSE"
   },
-  "repository": { 
-    "type": "git", 
+  "repository": {
+    "type": "git",
     "url": "http://github.com/AvianFlu/ntwitter.git"
-  }, 
-  "dependencies": { 
-    "oauth": "git://github.com/SocialBro/node-oauth.git", 
+  },
+  "dependencies": {
+    "oauth": "git://github.com/SocialBro/node-oauth.git",
     "cookies": "0.1.x",
-    "keygrip": "0.1.x"
-  }, 
-  "engines": {"node":">=0.4.0"}, 
+    "keygrip": "0.1.x",
+    "qs": "~0.5.6"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
   "main": "./lib/twitter"
 }
