@@ -20,7 +20,7 @@
   "dependencies": {
     "oauth": "git://github.com/SocialBro/node-oauth.git",
     "cookies": "0.1.x",
-    "keygrip": "0.1.x",
+    "keygrip": "1.0.1",
     "qs": "~0.5.6"
   },
   "engines": {
