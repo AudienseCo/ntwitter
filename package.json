@@ -1,6 +1,6 @@
 {
   "name": "ntwitter",
-  "version": "0.4.0",
+  "version": "0.3.5",
   "description": "Asynchronous Twitter REST/stream/search client API for node.js.",
   "keywords": [
     "twitter",
